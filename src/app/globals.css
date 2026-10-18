@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  background-color: #fdf3e7;
+  background-image: linear-gradient(160deg, #fffaf0 0%, #fdeedd 50%, #fbd9bf 100%);
+  background-attachment: fixed;
+}
+
+.dark body {
+  background-color: #1c1512;
+  background-image: linear-gradient(160deg, #241a15 0%, #1d1511 55%, #2c1d14 100%);
+}

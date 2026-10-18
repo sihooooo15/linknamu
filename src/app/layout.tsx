@@ -13,9 +13,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ko" suppressHydrationWarning>
       <head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+        />
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
       </head>
-      <body className="bg-stone-50 text-stone-900 antialiased transition-colors dark:bg-neutral-950 dark:text-stone-100">
+      <body className="text-stone-800 antialiased dark:text-stone-100">
         {children}
       </body>
     </html>

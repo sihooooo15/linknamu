@@ -3,9 +3,9 @@ export type LinkItem = { id: string; title: string; url: string; icon: string };
 
 // DB 연결 전까지 사용하는 임시 데이터. 내 정보로 바꿔 쓰세요.
 export const profile: Profile = {
-  name: "홍길동",
-  bio: "개발하고 글 쓰는 크리에이터",
-  avatar: "",
+  name: "김시호",
+  bio: "풀스택 개발자 | 요즘에는 AI 개발에 관심이 많아요",
+  avatar: "https://placehold.co/150x150/orange/white",
 };
 
 export const links: LinkItem[] = [
